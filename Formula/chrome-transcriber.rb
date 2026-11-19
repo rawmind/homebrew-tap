@@ -1,8 +1,8 @@
 class ChromeTranscriber < Formula
-  desc "Local whisper.cpp subtitles and translation for YouTube in Chrome"
+  desc "Titl: local whisper.cpp subtitles and translation for YouTube in Chrome"
   homepage "https://github.com/rawmind/chrome-transcriber"
-  url "https://github.com/rawmind/chrome-transcriber/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "3606e2f3e3f2846574438422d589905094599b2874ec43db9aba96c10b4d4de6"
+  url "https://github.com/rawmind/chrome-transcriber/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "a1a6c1bd2a4bbaf269be09e2cec3281b83873029f63dbfa2dd7f1a89ba0304d8"
   license "MIT"
   head "https://github.com/rawmind/chrome-transcriber.git", branch: "master"
 
@@ -11,7 +11,7 @@ class ChromeTranscriber < Formula
 
   def install
     system "cargo", "install", *std_cargo_args(path: "helper")
-    (pkgshare/"extension").install "manifest.json", "src"
+    (pkgshare/"extension").install "manifest.json", "src", "icons"
   end
 
   def caveats
