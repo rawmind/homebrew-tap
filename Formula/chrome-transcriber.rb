@@ -1,8 +1,8 @@
 class ChromeTranscriber < Formula
   desc "Local whisper.cpp subtitles and translation for YouTube in Chrome"
   homepage "https://github.com/rawmind/chrome-transcriber"
-  url "https://github.com/rawmind/chrome-transcriber/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e5f6169af415d73b300e1bd5cfae1a670b12fec5254cf017276c6cd197f6d65a"
+  url "https://github.com/rawmind/chrome-transcriber/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "847626204072ea18969dbb3fa08c61f5b19158aec124aeee09418d54b2b1fe3c"
   license "MIT"
   head "https://github.com/rawmind/chrome-transcriber.git", branch: "master"
 
