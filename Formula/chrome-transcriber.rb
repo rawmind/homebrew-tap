@@ -1,10 +1,10 @@
 class ChromeTranscriber < Formula
   desc "Titl: local whisper.cpp subtitles and translation for YouTube in Chrome"
-  homepage "https://github.com/rawmind/chrome-transcriber"
-  url "https://github.com/rawmind/chrome-transcriber/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "a1a6c1bd2a4bbaf269be09e2cec3281b83873029f63dbfa2dd7f1a89ba0304d8"
+  homepage "https://github.com/rawmind/titl"
+  url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "5ea4c5f553c07394bfba95763a370ed55042fb0bf13ad63e3a2ea27b43b5c4c5"
   license "MIT"
-  head "https://github.com/rawmind/chrome-transcriber.git", branch: "master"
+  head "https://github.com/rawmind/titl.git", branch: "master"
 
   depends_on "rust" => :build
   depends_on "whisper-cpp"

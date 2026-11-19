@@ -9,4 +9,4 @@ chrome-transcriber-helper install
 
 | Formula | Description |
 |---|---|
-| [chrome-transcriber](https://github.com/rawmind/chrome-transcriber) | Local whisper.cpp subtitles and translation for YouTube in Chrome |
+| [chrome-transcriber](https://github.com/rawmind/titl) | Local whisper.cpp subtitles and translation for YouTube in Chrome |
