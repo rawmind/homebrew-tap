@@ -1,5 +1,5 @@
 class Titl < Formula
-  desc "Titl: local whisper.cpp subtitles and translation for YouTube in Chrome"
+  desc "Local whisper.cpp subtitles and translation for YouTube in Chrome"
   homepage "https://github.com/rawmind/titl"
   url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.4.tar.gz"
   sha256 "4744dc52ab19e3e9d741458641bf517fb061c23a144ab850b52e8d2728362865"
