@@ -7,7 +7,7 @@ class Titl < Formula
   head "https://github.com/rawmind/titl.git", branch: "master"
 
   depends_on "rust" => :build
-  depends_on "whisper-cpp"
+  depends_on "whisper.cpp"
 
   def install
     system "cargo", "install", *std_cargo_args(path: "helper")
