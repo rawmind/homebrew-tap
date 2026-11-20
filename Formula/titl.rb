@@ -1,8 +1,8 @@
 class Titl < Formula
   desc "Local whisper.cpp subtitles and translation for YouTube in Chrome"
   homepage "https://github.com/rawmind/titl"
-  url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.11.tar.gz"
-  sha256 "a27604373d50a9a037a02176a8d7126076e88f47ab7f21be7aed7362774d3188"
+  url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.12.tar.gz"
+  sha256 "013d43db9f9ee0a90ad4f69acc442097bf61bbc38596c3ce5d0b5c5dacdb6dd6"
   license "MIT"
   head "https://github.com/rawmind/titl.git", branch: "master"
 
@@ -12,7 +12,7 @@ class Titl < Formula
   def install
     system "cargo", "install", *std_cargo_args(path: "helper")
     bin.install_symlink "titl" => "chrome-transcriber-helper"
-    (pkgshare/"extension").install "manifest.json", "src", "icons"
+    (pkgshare/"extension").install "manifest.json", "src", "icons", "_locales"
   end
 
   def caveats
