@@ -4,7 +4,7 @@ Homebrew formulae by rawmind.
 
 ```bash
 brew install rawmind/tap/titl
-chrome-transcriber-helper install
+titl install
 ```
 
 | Formula | Description |
