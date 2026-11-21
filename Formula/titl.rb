@@ -1,8 +1,8 @@
 class Titl < Formula
   desc "Local whisper.cpp subtitles and translation for YouTube in Chrome"
   homepage "https://github.com/rawmind/titl"
-  url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.12.tar.gz"
-  sha256 "013d43db9f9ee0a90ad4f69acc442097bf61bbc38596c3ce5d0b5c5dacdb6dd6"
+  url "https://github.com/rawmind/titl/archive/refs/tags/v0.1.15.tar.gz"
+  sha256 "64be09bd7ffcb56eb2c081c8e4422749a56775623524574b0ef2a845b2e623da"
   license "MIT"
   head "https://github.com/rawmind/titl.git", branch: "master"
 
