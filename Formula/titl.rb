@@ -11,7 +11,6 @@ class Titl < Formula
 
   def install
     system "cargo", "install", *std_cargo_args(path: "helper")
-    bin.install_symlink "titl" => "chrome-transcriber-helper"
     (pkgshare/"extension").install "manifest.json", "src", "icons", "_locales"
   end
 
@@ -30,6 +29,5 @@ class Titl < Formula
     assert_match "USAGE", shell_output("#{bin}/titl --help")
     assert_match version.to_s, shell_output("#{bin}/titl --version")
     assert_match "unknown command", shell_output("#{bin}/titl bogus 2>&1", 1)
-    assert_match version.to_s, shell_output("#{bin}/chrome-transcriber-helper --version")
   end
 end
